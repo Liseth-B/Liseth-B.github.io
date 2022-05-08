@@ -166,7 +166,7 @@ img{
 .pie__de__pagina .redes{
     display: flex;
     flex-grow: 1;
-    margin-right: 6em;
+    margin-right: 8em;
 }
 
 .pie__de__pagina .redes ul{
@@ -492,7 +492,7 @@ img{
     }
     
     .seccion__1 .logo{
-        width: 300px;
+        width: 250px;
         margin-top: 2.5em;
     }
     
