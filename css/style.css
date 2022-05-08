@@ -1,0 +1,553 @@
+:root{
+    --color__primario: #007dc6;
+    --color__secundario: #ffc220;
+    --color__terciario: #004c91;
+    --type: 'Noto Sans', sans-serif;
+}
+
+*{
+    margin: 0em;
+    padding: 0em;
+    text-decoration: none;
+    font-family: var(--type);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/**Header**/
+
+.navegador{
+    display: flex;
+    padding: 2.5em 4.5em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color__primario);
+}
+
+.navegador .item{
+    color: white;
+    font-weight: 600;
+}
+
+/**Logo del navegador**/
+.navegador .logo__nav{
+    width: 190px;
+    height: auto;
+}
+
+/**Aqui van los hipervinculos de historia, nosotros y sucursales**/
+
+.navegador .menu{
+    display: flex;
+}
+
+.navegador .menu .item{
+    margin: 0em 1.25em;
+}
+
+/**Fin**/
+
+.navegador .item a{
+    color: white;
+}
+
+.navegador .item a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/**Boton**/
+
+.navegador .paginaprincipal a{
+    padding: 0.5em 1em;
+    color: var(--color__primario);
+    background-color: var(--color__secundario);
+    border-radius: 40px;
+}
+
+.navegador .paginaprincipal a:hover{
+    box-shadow: 0px 15px 18px 3px rgba(0,0,0,0.59);
+    background-color: white;
+    color: var(--color__primario);
+    text-decoration: none;
+}
+
+/**Sección 1**/
+
+.seccion__1{
+    display: flex;
+    padding: 5.75em 4.5em;
+    justify-content: space-between;
+}
+
+.seccion__1 .marca{
+    flex-basis: 60%;
+}
+
+.seccion__1 .marca h1{
+    color: var(--color__primario);
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.seccion__1 .logo{
+    width: 400px;
+    align-self: center;
+}
+
+/**Sección 2**/
+
+.seccion__2{
+    background-color: var(--color__primario);
+    padding: 5.75em 4.5em;
+    justify-content: space-between;
+}
+
+.seccion__2 .logotipo h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.seccion__2 .logotipo p{
+    color: white;
+}
+
+/**Aqui empiezan los logotipos**/
+
+.seccion__2 .tipos__logos{
+    display: flex;
+    margin-top: 1.25em;
+    justify-content: space-evenly;
+}
+
+.seccion__2 .item{
+    padding: 1.5em 1.25em 0em 1.25em;
+    margin: 0.5em;
+    border-radius: 10px;
+    background-image: url('../images/fondoclaro.jpg');
+    justify-content: center;
+}
+
+.seccion__2 .tipos__logos .logo__negativo{
+    background-image: url('../images/fondoscuro.jpg');
+}
+
+/**Descargas svg y png**/
+
+.seccion__2 .tipos__logos .descargas{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.seccion__2 .tipos__logos .descargas a{
+    margin-left: 0.625em;
+    margin-bottom: 0.125em;
+    color: var(--color__primario);
+}
+
+.seccion__2 .tipos__logos .descargas a:hover{
+    text-decoration: underline;
+}
+
+/**Footer**/
+
+.pie__de__pagina{
+    padding: 5.75em 4.5em;
+    background-color: var(--color__terciario);
+}
+
+.pie__de__pagina .redes{
+    display: flex;
+    flex-grow: 1;
+    margin-right: 6em;
+}
+
+.pie__de__pagina .redes ul{
+    display: flex;
+}
+
+.pie__de__pagina .redes ul li a i{
+    margin: 1em 1.25em 0em 0em;
+    font-size: 1.5em;
+}
+
+.pie__de__pagina .footer__arriba .redes a:hover{
+    text-decoration: none;
+}
+
+.pie__de__pagina .footer__arriba{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+}
+
+.pie__de__pagina .footer__arriba .enlaces{
+    display: flex;
+    flex-grow: 2;
+}
+
+.pie__de__pagina .footer__arriba .enlaces .enlacesuno{
+    display: flex;
+}
+
+.pie__de__pagina .footer__arriba .enlaces .enlacesdos{
+    display: flex;
+}
+
+.pie__de__pagina .footer__arriba h2{
+    color: var(--color__secundario);
+}
+
+.pie__de__pagina .footer__arriba h4{
+    color: var(--color__secundario);
+    font-size: 0.875em;
+    font-weight: 500;
+    margin-right: 12em;
+}
+
+.pie__de__pagina .footer__arriba a{
+    color: white;
+    font-size: 0.875em;
+    font-weight: 300;
+}
+
+.pie__de__pagina .footer__arriba a:hover{
+    text-decoration: underline;
+}
+
+.pie__de__pagina .footer__arriba ul{
+    list-style: none;
+}
+
+/**Eslogan y boton**/
+
+.pie__de__pagina .footer__abajo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5em;
+    align-items: center;
+}
+
+.pie__de__pagina .logo__footer{
+    width: 190px;
+    height: auto;
+}
+
+.pie__de__pagina .footer__abajo .paginaprincipal a{
+    padding: 0.5em 1em;
+    color: var(--color__terciario);
+    background-color: var(--color__secundario);
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.pie__de__pagina .footer__abajo .paginaprincipal a:hover{
+    box-shadow: 0px 15px 18px 3px rgba(0,0,0,0.59);
+    background-color: white;
+    color: var(--color__terciario);
+    text-decoration: none;
+}
+
+/**Responsive**/
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .navegador{
+        padding: 2em 2em;
+    }
+    
+    /**Logo del navegador**/
+    .navegador .logo__nav{
+        width: 140px;
+    }
+    
+    /**Aqui van los hipervinculos de historia, nosotros y sucursales**/
+    
+    .navegador .menu .item{
+        font-size: 0em;
+    }
+    
+    /**Boton**/
+
+    .navegador .paginaprincipal a{
+        font-size: 1em;
+    }
+    
+    /**Sección 1**/
+    
+    .seccion__1{
+        padding: 2.5em 2em;
+        font-size: 1em;
+    }
+    
+    .seccion__1 .marca{
+        margin-right: 3em;
+    }
+    
+    .seccion__1 .marca h1{
+        font-size: 2em;
+    }
+    
+    .seccion__1 .logo{
+        width: 350px;
+        margin-top: 2.5em;
+        align-content: center;
+    }
+    
+    /**Sección 2**/
+    
+    .seccion__2{
+        padding: 2.5em 2em;
+    }
+    
+    .seccion__2 .logotipo h1{
+        font-size: 2em;
+    }
+    
+    /**Logotipos**/
+    
+    .seccion__2 .tipos__logos .descargas a{
+        font-size: 0.875em;
+    }
+    
+    /**Footer**/
+    
+    .pie__de__pagina{
+        padding: 2.5em 2em;
+    }
+    
+    .pie__de__pagina .redes ul li a i{
+        font-size: 1.5em;
+    }
+
+    .pie__de__pagina .redes{
+        margin-right: 3em;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces .enlacesuno{
+        margin-bottom: 2em;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces h4{
+        margin-right: 6em;
+        font-size: 0.875em;
+    }
+
+    .pie__de__pagina .footer__arriba a{
+        font-size: 0.875em;
+    }
+    
+    /**Footer abajo**/
+    
+    .pie__de__pagina .logo__footer{
+        width: 140px;
+    }
+
+    .pie__de__pagina .footer__abajo .paginaprincipal a{
+        font-size: 1em;
+    }
+}
+
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    .navegador{
+        padding: 2em 2em;
+    }
+    
+    /**Logo del navegador**/
+    .navegador .logo__nav{
+        width: 140px;
+    }
+    
+    /**Aqui van los hipervinculos de historia, nosotros y sucursales**/
+    
+    .navegador .menu .item{
+        font-size: 0em;
+    }
+    
+    /**Boton**/
+
+    .navegador .paginaprincipal a{
+        font-size: 0.875em;
+    }
+    
+    /**Sección 1**/
+    
+    .seccion__1{
+        padding: 2.5em 2em;
+        flex-direction: column;
+    }
+    
+    .seccion__1 .marca h1{
+        font-size: 2em;
+    }
+    
+    .seccion__1 .logo{
+        width: 300px;
+        margin-top: 2.5em;
+    }
+    
+    /**Sección 2**/
+    
+    .seccion__2{
+        padding: 2.5em 2em;
+    }
+    
+    .seccion__2 .logotipo h1{
+        font-size: 2em;
+    }
+    
+    /**Logotipos**/
+    
+    .seccion__2 .tipos__logos{
+        flex-direction: column;
+    }
+    
+    /**Footer**/
+    
+    .pie__de__pagina{
+        padding: 2.5em 2em;
+    }
+    
+    .pie__de__pagina .redes ul li a i{
+        font-size: 1.5em;
+    }
+    
+    .pie__de__pagina .footer__arriba{
+        flex-direction: column;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces h4{
+        margin-right: 10em;
+        margin-top: 2em;
+    }
+
+    .pie__de__pagina .footer__arriba a{
+        font-size: 0.875em;
+    }
+    
+    /**Footer abajo**/
+    
+    .pie__de__pagina .logo__footer{
+        width: 140px;
+    }
+
+    .pie__de__pagina .footer__abajo .paginaprincipal a{
+        font-size: 0.875em;
+    }
+}
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .navegador{
+        padding: 2em 2em;
+    }
+    
+    /**Logo del navegador**/
+    .navegador .logo__nav{
+        width: 130px;
+    }
+    
+    /**Aqui van los hipervinculos de historia, nosotros y sucursales**/
+    
+    .navegador .menu .item{
+        font-size: 0em;
+    }
+    
+    /**Boton**/
+
+    .navegador .paginaprincipal a{
+        font-size: 0.875em;
+    }
+    
+    /**Sección 1**/
+    
+    .seccion__1{
+        padding: 2.5em 2em;
+        flex-direction: column;
+    }
+    
+    .seccion__1 .marca h1{
+        font-size: 2em;
+    }
+    
+    .seccion__1 .logo{
+        width: 300px;
+        margin-top: 2.5em;
+    }
+    
+    /**Sección 2**/
+    
+    .seccion__2{
+        padding: 2.5em 2em;
+    }
+    
+    .seccion__2 .logotipo h1{
+        font-size: 2em;
+    }
+    
+    /**Logotipos**/
+    
+    .seccion__2 .tipos__logos{
+        flex-direction: column;
+    }
+    
+    /**Footer**/
+    
+    .pie__de__pagina{
+        padding: 2.5em 2em;
+    }
+    
+    .pie__de__pagina .redes ul li a i{
+        font-size: 1.5em;
+    }
+    
+    .pie__de__pagina .footer__arriba{
+        flex-direction: column;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .pie__de__pagina .footer__arriba .enlaces h4{
+        margin-right: 5.5em;
+        margin-top: 2em;
+    }
+
+    .pie__de__pagina .footer__arriba a{
+        font-size: 0.875em;
+    }
+    
+    /**Footer abajo**/
+    
+    .pie__de__pagina .logo__footer{
+        width: 130px;
+    }
+
+    .pie__de__pagina .footer__abajo .paginaprincipal a{
+        font-size: 0.875em;
+    }
+}
